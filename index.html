@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>John Doe | Portfolio</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/colors.css" />
+		<link rel="stylesheet" href="css/typography.css" />
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/components.css" />
+		<!-- <link rel="stylesheet" href="css/animations.css" /> -->
+		<script src="js/modernizr.js"></script>
+	</head>
+	<body>
+		<header class="site-header" id="home">
+			<div class="container">
+				<div class="logo">
+					<a href="#home">JD</a>
+				</div>
+				<nav class="main-nav">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero" id="hero">
+				<div class="container">
+					<h1>John Doe</h1>
+					<h2>Senior Product Designer</h2>
+					<p>I create thoughtful digital experiences through minimalist design.</p>
+					<div class="cta-group">
+						<a href="#contact" class="btn btn-primary">Get in touch</a>
+						<a href="#projects" class="btn btn-secondary">View work</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="about" id="about">
+				<div class="container">
+					<h2 class="section-title">About Me</h2>
+					<div class="about-content">
+						<div class="about-text">
+							<p class="lead">I'm a product designer with over 8 years of experience creating meaningful digital products that balance user needs with business goals.</p>
+							<p>Based in San Francisco, I've worked with startups and established brands across fintech, healthcare, and e-commerce. My approach focuses on simplicity, usability, and delightful interactions.</p>
+							<p>When not designing, you can find me hiking the California trails, experimenting with film photography, or exploring local coffee shops.</p>
+							<div class="skills">
+								<div class="skill-category">
+									<h3>Design</h3>
+									<ul>
+										<li>UI/UX Design</li>
+										<li>Design Systems</li>
+										<li>Prototyping</li>
+										<li>User Research</li>
+									</ul>
+								</div>
+								<div class="skill-category">
+									<h3>Tools</h3>
+									<ul>
+										<li>Figma</li>
+										<li>Adobe Suite</li>
+										<li>Framer</li>
+										<li>Webflow</li>
+									</ul>
+								</div>
+							</div>
+							<a href="#" class="btn btn-secondary">Download Resume</a>
+						</div>
+						<div class="about-image">
+							<img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="John Doe portrait" />
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="experience" id="experience">
+				<div class="container">
+					<h2 class="section-title">Experience</h2>
+					<div class="timeline">
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-date">2020 - Present</div>
+								<h3>Senior Product Designer</h3>
+								<h4>Fintech Inc.</h4>
+								<p>Led the redesign of the company's flagship app, resulting in a 40% increase in user engagement and a 25% decrease in support tickets.</p>
+								<ul>
+									<li>Established design system used across 5 product teams</li>
+									<li>Mentored junior designers and facilitated design critiques</li>
+									<li>Collaborated closely with engineers and product managers</li>
+								</ul>
+							</div>
+						</div>
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-date">2017 - 2020</div>
+								<h3>Product Designer</h3>
+								<h4>Health Tech Solutions</h4>
+								<p>Designed intuitive interfaces for patient-facing healthcare applications, focusing on accessibility and clear information hierarchy.</p>
+								<ul>
+									<li>Conducted user research with diverse patient populations</li>
+									<li>Improved app usability scores by 35% through iterative design</li>
+									<li>Received award for most innovative health tech design</li>
+								</ul>
+							</div>
+						</div>
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-date">2015 - 2017</div>
+								<h3>UI/UX Designer</h3>
+								<h4>CreativeAgency Co.</h4>
+								<p>Worked on diverse client projects spanning e-commerce, travel, and education sectors.</p>
+								<ul>
+									<li>Designed responsive interfaces for 15+ client websites</li>
+									<li>Developed prototypes and interaction models</li>
+									<li>Assisted in client presentations and design workshops</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="projects" id="projects">
+				<div class="container">
+					<h2 class="section-title">Selected Projects</h2>
+					<div class="project-filters">
+						<button class="filter-btn active" data-filter="all">All</button>
+						<button class="filter-btn" data-filter="ux">UX Design</button>
+						<button class="filter-btn" data-filter="ui">UI Design</button>
+						<button class="filter-btn" data-filter="branding">Branding</button>
+					</div>
+					<div class="project-grid">
+						<div class="project-card" data-category="ux ui">
+							<div class="project-image">
+								<img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Investment App Project" />
+							</div>
+							<div class="project-info">
+								<h3>Investment App Redesign</h3>
+								<p>Simplified complex financial data for everyday users</p>
+								<span class="project-tag">UX Design</span>
+								<span class="project-tag">UI Design</span>
+							</div>
+						</div>
+						<div class="project-card" data-category="branding ui">
+							<div class="project-image">
+								<img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Healthcare Platform" />
+							</div>
+							<div class="project-info">
+								<h3>Healthcare Platform</h3>
+								<p>Patient-centered design for medical information access</p>
+								<span class="project-tag">UI Design</span>
+								<span class="project-tag">Branding</span>
+							</div>
+						</div>
+						<div class="project-card" data-category="ux">
+							<div class="project-image">
+								<img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Travel Booking Experience" />
+							</div>
+							<div class="project-info">
+								<h3>Travel Booking Experience</h3>
+								<p>Streamlined booking flow increasing conversion by 28%</p>
+								<span class="project-tag">UX Design</span>
+							</div>
+						</div>
+						<div class="project-card" data-category="branding">
+							<div class="project-image">
+								<img src="https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Cafe Branding" />
+							</div>
+							<div class="project-info">
+								<h3>Artisanal Cafe Branding</h3>
+								<p>Complete brand identity for a specialty coffee chain</p>
+								<span class="project-tag">Branding</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="testimonials" id="testimonials">
+				<div class="container">
+					<h2 class="section-title">Testimonials</h2>
+					<div class="testimonial-slider">
+						<div class="testimonial-slide">
+							<blockquote>"John's approach to design combines aesthetics with deep user empathy. His work on our app redesign exceeded our expectations and transformed how our customers interact with our product."</blockquote>
+							<cite> — Sarah Johnson, CPO at Fintech Inc. </cite>
+						</div>
+						<div class="testimonial-slide">
+							<blockquote>"Working with John was a game-changer for our startup. He quickly understood our vision and created an interface that feels both innovative and intuitive."</blockquote>
+							<cite> — Michael Chen, Founder at HealthTech </cite>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact" id="contact">
+				<div class="container">
+					<h2 class="section-title">Get In Touch</h2>
+					<div class="contact-content">
+						<div class="contact-info">
+							<p class="lead">I'm currently available for freelance work and full-time opportunities. If you'd like to work together, have a question, or just want to say hello, reach out below.</p>
+							<ul class="contact-list">
+								<li>
+									<span class="contact-label">Email</span>
+									<a href="mailto:hello@johndoe.design">hello@johndoe.design</a>
+								</li>
+								<li>
+									<span class="contact-label">Location</span>
+									<span>San Francisco, CA</span>
+								</li>
+							</ul>
+							<div class="social-links">
+								<a href="#" class="social-link">LinkedIn</a>
+								<a href="#" class="social-link">Dribbble</a>
+								<a href="#" class="social-link">Twitter</a>
+							</div>
+						</div>
+						<form class="contact-form">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" id="name" name="name" required />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" id="email" name="email" required />
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<input type="text" id="subject" name="subject" required />
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea id="message" name="message" rows="5" required></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="copyright">
+						<p>&copy; 2025 John Doe. All rights reserved.</p>
+					</div>
+					<div class="footer-nav">
+						<a href="#home">Home</a>
+						<a href="#about">About</a>
+						<a href="#experience">Experience</a>
+						<a href="#projects">Projects</a>
+						<a href="#contact">Contact</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
