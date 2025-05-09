@@ -361,66 +361,6 @@ section {
   color: var(--color-neutral-50);
 }
 
-/* Responsive adjustments */
-@media (max-width: 992px) {
-  .about-content {
-    grid-template-columns: 1fr;
-  }
-  
-  .about-image {
-    order: -1;
-    margin-bottom: var(--space-6);
-  }
-  
-  .contact-content {
-    grid-template-columns: 1fr;
-    gap: var(--space-8);
-  }
-}
-
-@media (max-width: 768px) {
-  section {
-    padding: var(--space-12) 0;
-  }
-  
-  .skills {
-    grid-template-columns: 1fr;
-  }
-  
-  .timeline::before {
-    left: 0;
-  }
-  
-  .timeline-item {
-    padding-left: 2rem;
-  }
-  
-  .timeline-marker {
-    left: -0.5rem;
-  }
-  
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .footer-content {
-    flex-direction: column;
-    gap: var(--space-4);
-    text-align: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .cta-group {
-    flex-direction: column;
-    gap: var(--space-4);
-  }
-  
-  .main-nav {
-    display: none;
-  }
-}
-
 /* Video section */
 .video {
   background-color: var(--color-surface);
