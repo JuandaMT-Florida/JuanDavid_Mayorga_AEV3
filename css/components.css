@@ -155,27 +155,7 @@ input:invalid:focus, textarea:invalid:focus {
   margin-bottom: var(--space-2);
 }
 
-/* Alert messages */
-.alert {
-  padding: var(--space-4);
-  border-radius: var(--border-radius-md);
-  margin-bottom: var(--space-5);
-}
 
-.alert-success {
-  background-color: var(--color-success-300);
-  color: var(--color-success-700);
-}
-
-.alert-warning {
-  background-color: var(--color-warning-300);
-  color: var(--color-warning-700);
-}
-
-.alert-error {
-  background-color: var(--color-error-300);
-  color: var(--color-error-700);
-}
 
 /* Utilities */
 .text-center {
